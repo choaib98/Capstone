@@ -1,0 +1,133 @@
+body {
+    background-color: #d3d3d3;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar-container {
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+.card {
+    background-image: url("bg-image.jpg"); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%; /* Set the card width to 100% */
+    margin-top: 20px; /* Added margin-top for spacing */
+}
+
+.card h1 {
+    margin: 0;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 48%; /* Set the width to 100% */
+    padding: 10px; /* Add padding */
+}
+
+.card-item {
+    background-size: cover;
+    background-color:beige ;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%; /* Set the card width to 100% */
+    margin-top: 20px;
+    margin: 0 10px;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+}
+footer {
+
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    margin-right: 10px;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.footer-line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
